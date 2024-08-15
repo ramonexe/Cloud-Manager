@@ -5,7 +5,7 @@ export function Footer() {
         <>
             <footer className="Footer-container">
                 <p className='Footerp'>Manegement for all your cloud files!</p>
-                <h1 className='Footerh1'>Cloud File Manager</h1>
+                <h1 className='Footerh1'>CManager</h1>
             </footer>
         </>
     );
