@@ -1,4 +1,33 @@
-# React + TypeScript + Vite
+# Cloud Manager
+
+- Terminal commands to start:
+
+Install yarn
+```js
+npm install -g yarn
+```
+
+- Reinstall dependencies if you need
+```js
+yarn install
+```
+
+- Start the app and access your localhost port(i use '3000')
+```js
+yarn dev
+```
+
+If you encounter an error accessing or installing Yarn, try changing the PowerShell script execution policy. (Or try using your Gitbash for this)
+
+Temporarily
+```js
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
+Permanent
+```js
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
