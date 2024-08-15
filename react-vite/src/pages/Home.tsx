@@ -1,4 +1,3 @@
-import { Footer } from "../components/Footer";
 import { NavBar } from "../components/NavBar";
 import { Section } from "../components/Section";
 
@@ -7,7 +6,6 @@ export function Home() {
         <>
             <NavBar />
             <Section />
-            <Footer />
         </>
     );
 }

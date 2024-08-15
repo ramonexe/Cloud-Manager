@@ -1,15 +1,17 @@
 import '../styles/Login.css';
 
-export function Login(){
-    return(
+export function Login() {
+    return (
         <>
             <div className='Login-container'>
-                <h1>Login</h1>
-                <p>Username</p>
-                <input type="Username" />
-                <p>Password</p>
-                <input type="Password" />
-                <button>Login</button>
+                <div className='Login'>
+                    <h1 className='Logintext'>Login</h1>
+                    <p className='Logintext'>Username</p>
+                    <input className='Inputstyle' type="Username" />
+                    <p className='Logintext'>Password</p>
+                    <input className='Inputstyle' type="Password" />
+                    <button className='Loginbutton'>Login</button>
+                </div>
             </div>
         </>
     );

@@ -1,7 +1,20 @@
 .Footer-container {
-    background-color: cornflowerblue;
+    background-color: rgb(31, 31, 31);
     justify-content: center;
     align-items: center;
+    display: flex;
     height: 100%;
     width: 100%;
+    flex-direction: column;
+}
+
+.Footerh1 {
+    font-variant-ligatures: additional-ligatures;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    color: azure;
+}
+
+.Footerp {
+    color: azure;
 }
